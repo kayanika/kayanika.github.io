@@ -1,0 +1,36 @@
+[
+    {
+        "institution": "Bangladesh University of Engineering and Technology",
+        "degree": "B.Sc. in Computer Science and Engineering",
+        "duration" : "Apr 2019 - May 2024",
+        "gpa" : "CGPA: 3.60/4.00",
+        "description" : "Even though my cgpa is 3.6 because I had initially trouble with getting adjusted to the campus environment, later it started to rise. I had a gpa 3.75 and 3.83 in my last two terms of BUET. ",
+        "courses" : [
+            "CSE 305 - Computer Architecture",
+            "CSE 307 - Software Engineering",
+            "CSE 309 - Compiler Design",
+            "CSE 313 - Operating Systems",
+            "CSE 317 - Artificial Intelligence",
+            "CSE 321 - Computer Networks",
+            "CSE 405 - Computer Security",
+            "CSE 409 - Computer Graphics",
+            "CSE 463 - Introduction to Bioinformatics",
+            "CSE 471 - Machine Learning",
+            "MATH 245 - Statistics and Probability",
+            "MATH 247 - Linear Algebra"
+        ]
+    },{
+        "institution": "Holy Cross College, Tejgaon, Dhaka",
+        "degree": "Higher Secondary Certificate (HSC)",
+        "duration" : "2018",
+        "gpa" : "GPA: 5.00/5.00",
+          "description" : "Received board scholarship."
+    },{
+        "institution": "S O S Hermann Gmeiner College, Mirpur, Dhaka",
+        "degree" : "Secondary School Certificate (SSC)",
+        "duration" : "2016",
+        "gpa" : "GPA: 5.00/5.00",
+        "description" : "Received board scholarship."
+    }
+]
+

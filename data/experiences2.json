@@ -1,0 +1,30 @@
+[
+    {
+        "name": "IQVIA",
+        "description": "",
+        "location": "Durham, North Carolina",
+        "positions": [
+            {
+                "position": "Software Developement Engineer ",
+                "duration": "July 2024 - Present",
+                "description": "",
+                "projects": [
+                    "Working in the ETL squad of Data service team. We work to maintain databases and convert data to usable table structure from source.We work with databases like postgres,snowflake,firebolt etc. Its a good opprtunity to work with a team of experienced engineers and learn from them."
+                ]
+            }
+        ]
+    },{
+        "name": "ERA‐InfoTech",
+        "location": "Dhaka, Bangladesh",
+        "description": "",
+        "positions": [
+            {
+                "position": "Internship",
+                "duration": "June,2023",
+                "description": "This was a business data analytis project‐this project was about to categorize customer narrations at the time of transactions and analysis the behaviour of customers based on the categorization. It was done using unsupervised learning algorithms and NLP."
+
+                
+            }
+        ]
+    }
+]

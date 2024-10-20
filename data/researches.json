@@ -1,0 +1,14 @@
+[
+    {
+        "title": "",
+        "subtitle": "A NOVEL APPROACH TO DETECT PTSD: INTEGRATiNG COMPUTER VISION WITH TRADITIONAL QUESTIONNAIRE",
+        "supervisor": [
+            "Dr. Sadia Sharmin"
+        ],
+        "keywords": [
+            "HCI",
+            "Mental Health","Machine Learning"
+        ],
+        "description": "We aimed to determine if combining facial expression analysis with multiple choice question responses can improve PTSD detection accuracy.Participants answered multiple‐choice questions while being video recorded.Their emo‐ tional distribution were extracted and that coupled with their answers helped in generating the dataset.Initially, clustering algorithms were applied to this unlabeled data, but the results were speculative.The labeled data was used for supervised learning‐ Various machine learning algorithms, including Logistic Regression, Support Vector Machines (SVM), Random Forests etc were evaluated for their performance in predicting PTSD."
+    }
+]

@@ -1,0 +1,16 @@
+{
+  "name": "portfolio-gen",
+  "version": "1.0.0",
+  "description": "The original UI, CSS and design is done by [Sadee](https://github.com/codewithsadee) and taken from [here](https://github.com/codewithsadee/vcard-personal-portfolio). The template was updated and was given a simpler look suitable for CS graduates by [Apurba Saha](https://github.com/diponsaha007). It was further furnished by myself to add some extra things. My version can be found [here](https://tamimehsan.github.io/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anika Monir",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
