@@ -2,7 +2,7 @@
     {
         "title": "Beyond the seas",
         "image": "bys.png",
-        "description": "What happens after you graduate? You look for unversities to do your PHD. But going through all the websites to find the right university is tiresome. Beyond the seas is a platform where you can find all the information about the universities in one place. ",
+        "description": "What happens after you graduate? You look for unversities to do your PHD. But going through all the websites to find the right university is tiresome! Beyond the seas is the savior where you can find all the information about the universities in one place. ",
         "date": "2023",
         "github": "https://github.com/kayanika/BeyondTheSeas",
         "stacks" : [
@@ -13,7 +13,7 @@
     },{
         "title": "Learn-E",
         "image": "LEARNE.jpg",
-        "description": "built an web learning platform where students can sign up for courses and go through video content and take tests. The platform was built using Nodejs, React and PostgreSQL.",
+        "description": "I built an web learning platform where students can sign up for courses and go through video content and take tests.This was my first full stack project- learned a great deal from it ",
         "date": "2021",
         "github": "https://github.com/kayanika/Learn_E",
         "stacks" : [
@@ -24,7 +24,7 @@
     },{
         "title": "Web Scrapper",
         "image": "scraping.png",
-        "description": "Built a web scrapper to scrap data from a website. The scrapper was built using python and selenium. The scrapper was able to scrap data from the different PHD portals to provide data to my project beyond the seas.",
+        "description": "Built a web scrapper to scrap data from websitses.  The scrapper was used to scrap data from the different PHD portals to provide data to my project beyond the seas.This was something that I was hella proud of!",
         "date": "2020",
       
         "github": "https://github.com/kayanika/ScrapperForBeyondTheSeas",
@@ -36,8 +36,8 @@
     },{
         "title": "Car Warehouse",
         "image": "carwarehouse.png",
-        "description": "Built a car warehouse system using JavaFX. The system was able to store car information and show the information in a table. The system was built using JavaFX and MySQL.",
-        "date": "2020",
+        "description": "Built a car warehouse system using JavaFX. The system was able to store car information and show the information in a table. People could buy and sell cars using the system- the usual norm",
+        "date": "2021",
         "github": "https://github.com/TamimEhsan/SQuirreL",
 
         "stacks" : [
@@ -48,8 +48,8 @@
         "title": "C Compiler",
         "image": "compiler.jpg",
         "description": "Built a compiler from scratch with modern optimizations for a subset of C language.It was the hardest offline I had done in my university life and the most enjoyable as well.",
-        "date": "2023",
-        "github": "https://github.com/kayanika/cse310-offlines.git",
+        "date": "2022",
+        "github": "https://github.com/kayanika/CSE310-Compiler-Sessional",
         "stacks" : [
             "Bison",
             "Yacc",
