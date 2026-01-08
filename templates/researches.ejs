@@ -11,6 +11,17 @@
           <li class="timeline-item">
             <h4 class="h4 timeline-item-title"><%=research.title%></h4>
             <h5 class="h5 timeline-item-subtitle-research"><%=research.subtitle%></h5>
+
+            <% /* Supervisor(s) */ %>
+            <% if(research.supervisor && research.supervisor.length > 0) { %>
+              <h5 class="h5 timeline-item-subtitle-research">Supervisor: 
+                <% research.supervisor.forEach(function(sup, index){ %>
+                  <%= sup %><% if(index < research.supervisor.length - 1) { %>, <% } %>
+                <% }); %>
+              </h5>
+            <% } %>
+
+            <% /* Co-authors */ %>
             <% if(research.coauthors && research.coauthors.length > 0 ) { %>
                 <h5 class="h5 timeline-item-subtitle-research">Co-authors: 
                     <% research.coauthors.forEach(function(coauthor, index){ %>
@@ -19,6 +30,7 @@
                     <% }); %>
                 </h5>
             <% } %>
+
             <% if(research.keywords && research.keywords.length > 0 ) { %>
                 <h5 class="h5 timeline-item-subtitle-research">Keywords: 
                     <% research.keywords.forEach(function(keyword, index){ %>
@@ -27,7 +39,17 @@
                     <% }); %>
                 </h5>
             <% } %>
-              
+
+            <% /* Publication metadata */ %>
+            <% if(research.published) { %>
+              <h5 class="h5 timeline-item-subtitle-research">
+                Published in: <%= research.venue || '' %> <%= research.year ? ('(' + research.year + ')') : '' %>
+                <% if(research.link) { %>
+                  — <a href="<%=research.link%>" target="_blank" rel="noopener noreferrer">paper</a>
+                <% } %>
+              </h5>
+            <% } %>
+
             <br>
             <p class="timeline-text-bulletpoint">
               <%=research.description%>

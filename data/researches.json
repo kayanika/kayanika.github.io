@@ -1,14 +1,35 @@
 [
+   
     {
-        "title": "",
-        "subtitle": "A NOVEL APPROACH TO DETECT PTSD: INTEGRATiNG COMPUTER VISION WITH TRADITIONAL QUESTIONNAIRE",
+        "title": "Detecting PTSD: Computer Vision + Questionnaire",
+        "subtitle": "A Multimodal Approach: Enhancing PTSD Diagnosis with AI-Powered Behavioral Analysis",
         "supervisor": [
             "Dr. Sadia Sharmin"
         ],
+        "coauthors": [],
         "keywords": [
             "HCI",
-            "Mental Health","Machine Learning"
+            "Mental Health",
+            "Machine Learning"
         ],
-        "description": "We aimed to determine if combining facial expression analysis with multiple choice question responses can improve PTSD detection accuracy.Participants answered multiple‐choice questions while being video recorded.Their emo‐ tional distribution were extracted and that coupled with their answers helped in generating the dataset.Initially, clustering algorithms were applied to this unlabeled data, but the results were speculative.The labeled data was used for supervised learning‐ Various machine learning algorithms, including Logistic Regression, Support Vector Machines (SVM), Random Forests etc were evaluated for their performance in predicting PTSD."
+        "description": "We aimed to determine if combining facial expression analysis with multiple choice question responses can improve PTSD detection accuracy. Participants answered multiple-choice questions while being video recorded. Their emotional distributions were extracted and coupled with their answers to generate the dataset. Initially, clustering algorithms were applied to this unlabeled data, but the results were speculative. The labeled data was used for supervised learning - various machine learning algorithms, including Logistic Regression, Support Vector Machines (SVM), and Random Forests were evaluated for performance in predicting PTSD.",
+        "published": true,
+        "venue": "International Conference on Algorithms, Computing and Systems",
+        "year": "2025"
+        
+    }, {
+        "title": "MFS for vulnerable communities",
+        "subtitle": "Uncovering Design Implications for Secured MFS in Bangladesh from Experiences of the Vulnerable Users",
+        "supervisor": [
+            "Dr. A. B. M. Alim Al Islam."
+        ],
+        "coauthors": [],
+        "keywords": [
+            "HCI",
+            "ICTD",
+            "Mobile Financial Services"
+        ],
+        "description": "This is my ongoing research which focuses on MFS for elderly people in Bangladesh. Emerging technological advancements and people's dependency on Mobile Financial Services (MFS) are creating various security-centric issues in Bangladesh. So the objective of this research is to examine security risks and concerns faced by the vulnerable communities in the context of MFS usage in Bangladesh. We aim to identify relevant human factors associated with target users’ circumstances, and present new design implications to ensure inclusiveness in the MFS security and safety. As the final outcome, we expect to come up with a user-centric design for MFS users in Bangladesh as well as contribute to the cross-cutting domain of HCI and ICTD."
+        
     }
 ]

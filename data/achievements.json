@@ -1,62 +1,50 @@
 [
-    {
-        "title": "Hackathons",
-        "items": [
+     {
+        "title": "Publication",        "icon": "document-text-sharp",        "items": [
             {
-                "title": "Nasa Space Apps Challenge 2020",
-                "position" : "Honorable Mention",
-                "location": "Global",
-                "date": "January 2021",
-                "description": "Our team \"BUET Zenith\" became Champion in Regional round and directly qualified for the global round and got honorable mention in the global round."
-            },{
-                "title": "National STEM Competition 2021",
-                "position" : "Champion",
-                "location": "Dhaka, Bangladesh",
-                "date": "December 2021",
-                "description": "BUET IDRICO proposed a IOT based solution to the problem of water usage and distribution management for city water supplier WASA and became champion."
-            },{
-                "title": "International Blockchain Olympiad 2022",
-                "position" : "Honorable Mention",
-                "location": "Global",
-                "date": "June 2022",
-                "description": "Our team spondon developed \"A Blockchain Based Approach to Digitalize Health Sector for Better Transparency, Privacy and Security\" and bacame 1st Runner Up in Blockchain Olympiad Bangladesh 2022 and recieved honorable mention International round."
-            },{
-                "title": "Code Samurai 2022",
-                "position" : "1st Runners Up",
-                "location": "Dhaka, Bangladesh",
-                "date": "Decemeber 2022",
-                "description": "Our team BUET Storm's End developed a solution for JICA to monitor the progress of their projects in Bangladesh and became 1st Runners Up."
+                "title": "Paper Accepted at ICACS 2025",
+                "position" : "First Author",
+                "location": "Bangkok, Thailand",
+                "date": "2025",
+                "description": "Paper accepted for publication (Proceedings to be archived in ACM Digital Library). Engineered a multimodal PTSD detection framework combining facial expression analysis with psychometric data."
             }
         ]
     },
     {
-        "title": "Programming Competitions",
+        "title": "Professional Recognition",
         "items": [
             {
-                "title": "ICPC Dhaka Regional Final 2020",
-                "position" : "Ranked 7th",
-                "location": "Dhaka, Bangladesh",
-                "date": "August 2021"
-            },{
-                "title": "ICPC ASIA DHAKA REGIONAL CONTEST 2021",
-                "position" : "Ranked 8th",
-                "location": "Dhaka, Bangladesh",
-                "date": "October 2022"
-            },{
-                "title": "ICPC ASIA DHAKA REGIONAL CONTEST 2023",
-                "position" : "Ranked 8th",
-                "location": "Dhaka, Bangladesh",
-                "date": "October 2023"
-            },{
-                "title": "RUET IUPC 2022",
-                "position" : "Ranked 10th",
-                "location": "Rajshahi, Bangladesh",
-                "date": "June 2022"
-            },{
-                "title": "SUST IUPC 2022",
-                "position" : "Ranked 7th",
-                "location": "Sylhet, Bangladesh",
-                "date": "June 2022"
+                "title": "Standing Ovation at IQVIA",
+                "position" : "Recognition",
+                "location": "IQVIA — Durham, NC (Remote)",
+                "date": "2025",
+                "description": "Received a standing ovation and formal recognition from leadership at IQVIA for an internal presentation on ETL improvements and data platform work."
+            }
+        ]
+    },
+     {
+        "title": "Scholarships & Awards",
+        "items": [
+            {
+                "title": "Talent Pool Scholarship",
+                "position" : "Recognition",
+                "Presenting Organization": "Ministry of Education, Bangladesh",
+                "date": "2009,2014,2016",
+                "description": "I was awarded the prestigious Talent Pool government scholarship for maintaining outstanding academic performance across three consecutive national board examinations (HSC, SSC, and PSC). This scholarship is granted to the top percentile of students nationwide based on merit."
+            },
+            {
+                "title": "Regional Fine Arts Awards",
+                "position" : "Recognition",
+                "Presenting Organization": "Various Regional Competitions",
+                "date": "2010,2011,2012",
+                "description": "Recipient of multiple awards in regional fine arts and painting competitions. "
+            },
+             {
+                "title": "Open Book Talent Exam",
+                "position" : "8th Place",
+                "Presenting Organization": "Udvash",
+                "date": "2011",
+                "description": "Recipient of 8th place in a national open book talent exam conducted by Udvash, showcasing strong problem-solving and analytical skills."
             }
         ]
     }

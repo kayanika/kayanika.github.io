@@ -14,8 +14,8 @@ const skills = fs.readFileSync('data/skills.json', 'utf8');
 data.skills = JSON.parse(skills);
 const education = fs.readFileSync('data/education.json', 'utf8');
 data.education = JSON.parse(education);
-//const achievements = fs.readFileSync('data/achievements.json', 'utf8');
-//data.achievements = JSON.parse(achievements);
+const achievements = fs.readFileSync('data/achievements.json', 'utf8');
+data.achievements = JSON.parse(achievements);
 const experiences = fs.readFileSync('data/experiences2.json', 'utf8');
 data.experiences = JSON.parse(experiences);
 const projects = fs.readFileSync('data/projects.json', 'utf8');
@@ -26,7 +26,8 @@ console.log('__filename:', __filename);
 console.log('__dirname:', __dirname);
 try{
     const template = fs.readFileSync('templates/index.ejs', 'utf8');
-    const html = ejs.render(template, data);
+    // pass filename so EJS can resolve relative include paths inside templates/
+    const html = ejs.render(template, data, { filename: 'templates/index.ejs' });
     fs.writeFileSync('index.html', html);
 }catch(err){
     console.log(err);

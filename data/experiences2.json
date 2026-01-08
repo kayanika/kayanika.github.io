@@ -1,21 +1,22 @@
 [
     {
         "name": "IQVIA",
+        "icon": "briefcase-outline",
         "description": "",
-        "location": "Durham, North Carolina",
+        "location": "Durham, North Carolina(Remote)",
         "positions": [
             {
                 "position": "Software Developement Engineer ",
                 "duration": "July 2024 - Present",
                 "description": "",
                 "projects": [
-                    "Working in the ETL squad of Data service team. We work to maintain databases and convert data to usable table structure from source.We work with databases like postgres,snowflake,firebolt etc. Its a good opprtunity to work with a team of experienced engineers and learn from them."
+                    "Working in the ETL squad of Data service team. We work to maintain databases and convert data to usable table structure from source.We work with databases like postgres,snowflake,firebolt etc. Its a good opprtunity to work with a team of experienced engineers and learn from them.",
+                    "Received a standing ovation for an internal presentation on ETL improvements; recognized by leadership for impact."
                 ]
             }
         ]
     },{
-        "name": "ERA‐InfoTech",
-        "location": "Dhaka, Bangladesh",
+        "name": "ERA‐InfoTech",        "icon": "laptop-sharp",        "location": "Dhaka, Bangladesh",
         "description": "",
         "positions": [
             {

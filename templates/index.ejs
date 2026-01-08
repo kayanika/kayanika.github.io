@@ -10,7 +10,7 @@
   <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/3d-avatar-male_lg.webp" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/images/my-profile-img.jpg" type="image/x-icon">
 
   <!--
     - custom css link
@@ -37,7 +37,7 @@
       - #SIDEBAR
     -->
 
-    <%- include('/Users/kayanika/Downloads/Simple-Portfolio-Generator-master/templates/details.ejs', {user: user}) %>
+  <%- include('./details.ejs', {user: user}) %>
 
     <!--
       - #main-content
@@ -55,12 +55,16 @@
             <button class="navbar-link active" data-nav-link>About</button>
           </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Skills</button>
+           <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Research</button>
           </li>
           
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Education</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Achievements</button>
           </li>
 
           <li class="navbar-item">
@@ -71,8 +75,10 @@
             <button class="navbar-link" data-nav-link>Projects</button>
           </li>
 
+         
+
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Research</button>
+            <button class="navbar-link" data-nav-link>Skills</button>
           </li>
 
           <!-- <li class="navbar-item">
@@ -85,130 +91,41 @@
         - #ABOUT
       -->
 
-      <%- include('/Users/kayanika/Downloads/Simple-Portfolio-Generator-master/templates/about.ejs', {about: about}) %>
+  <%- include('./about.ejs', {about: about}) %>
 
       <!--
         - #ABOUT
       -->
 
-      <%- include('/Users/kayanika/Downloads/Simple-Portfolio-Generator-master/templates/skills.ejs', {skills: skills}) %>
+  <%- include('./skills.ejs', {skills: skills}) %>
       
       <!--
         - #EDUCATION
       -->
-      <%- include('/Users/kayanika/Downloads/Simple-Portfolio-Generator-master/templates/education.ejs', {education: education}) %>
+  <%- include('./education.ejs', {education: education}) %>
 
       <!--
         - #ACHIEVEMENTS
       -->
+  <%- include('./achievements.ejs', {achievements: achievements}) %>
 
       <!--
         - #EXPERIENCE
       -->
-      <%- include('/Users/kayanika/Downloads/Simple-Portfolio-Generator-master/templates/experiences2.ejs', {experiences: experiences}) %>
+  <%- include('./experiences2.ejs', {experiences: experiences}) %>
 
       <!--
         - #PROJECTS
       -->
-      <%- include('/Users/kayanika/Downloads/Simple-Portfolio-Generator-master/templates/projects.ejs', {projects: projects}) %>
+  <%- include('./projects.ejs', {projects: projects}) %>
 
       <!--
         - #RESEARCH
       -->
       
-      <%- include('/Users/kayanika/Downloads/Simple-Portfolio-Generator-master/templates/researches.ejs', {researches: researches}) %>
+  <%- include('./researches.ejs', {researches: researches}) %>
       
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
+      
 
      
 
