@@ -22,6 +22,8 @@ const projects = fs.readFileSync('data/projects.json', 'utf8');
 data.projects = JSON.parse(projects);
 const researches = fs.readFileSync('data/researches.json', 'utf8');
 data.researches = JSON.parse(researches);
+const publications = fs.readFileSync('data/publications.json', 'utf8');
+data.publications = JSON.parse(publications);
 console.log('__filename:', __filename);
 console.log('__dirname:', __dirname);
 try{

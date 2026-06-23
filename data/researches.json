@@ -1,23 +1,22 @@
 [
    
+
     {
-        "title": "Detecting PTSD: Computer Vision + Questionnaire",
-        "subtitle": "A Multimodal Approach: Enhancing PTSD Diagnosis with AI-Powered Behavioral Analysis",
-        "supervisor": [
-            "Dr. Sadia Sharmin"
-        ],
-        "coauthors": [],
-        "keywords": [
-            "HCI",
-            "Mental Health",
-            "Machine Learning"
-        ],
-        "description": "We aimed to determine if combining facial expression analysis with multiple choice question responses can improve PTSD detection accuracy. Participants answered multiple-choice questions while being video recorded. Their emotional distributions were extracted and coupled with their answers to generate the dataset. Initially, clustering algorithms were applied to this unlabeled data, but the results were speculative. The labeled data was used for supervised learning - various machine learning algorithms, including Logistic Regression, Support Vector Machines (SVM), and Random Forests were evaluated for performance in predicting PTSD.",
-        "published": true,
-        "venue": "International Conference on Algorithms, Computing and Systems",
-        "year": "2025"
-        
-    }, {
+    "title": "Sanctuary: Empathetic AI Agents for Mental Health Screening",
+    "subtitle": "Independent Research Project: Stress-Testing Whether AI Safety Layers Actually Catch Clinical Errors",
+    "supervisor": [],
+    "coauthors": [],
+    "keywords": [
+        "Trustworthy AI",
+        "Digital Mental Health",
+        "LLM Agents",
+        "Human-AI Interaction"
+    ],
+    "description": "Modern clinical-AI systems increasingly add an LLM 'oversight' agent to check another model's diagnostic reasoning - but they assume this safety layer works without ever testing whether it catches real errors. Tiered Agentic Oversight (TAO) is a fully local, open-source pipeline that performs multimodal depression screening from clinical-interview data (speech, facial action units, and language in the DAIC-WOZ corpus) and then turns a critical lens on its own safety layer. I plan to inject clinically grounded, DSM-5-defined errors — incorrect symptom-duration thresholds, fabricated symptoms, missed crisis cues — and measurehow reliably the oversight agent detects versus silently approves them across different model pairings and prompts. A complementary human study then will tests whether people shown the system's reasoning trace catch the same errors, mapping the 'verification gap': the dangerous cases where neither machine nor human notices a flawed clinical judgment.",
+    "published": false,
+    "year": "2026"
+}
+, {
         "title": "MFS for vulnerable communities",
         "subtitle": "Uncovering Design Implications for Secured MFS in Bangladesh from Experiences of the Vulnerable Users",
         "supervisor": [

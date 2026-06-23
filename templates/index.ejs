@@ -55,10 +55,14 @@
             <button class="navbar-link active" data-nav-link>About</button>
           </li>
 
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publications</button>
+          </li>
+
            <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Research</button>
           </li>
-          
+
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Education</button>
           </li>
@@ -70,16 +74,14 @@
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Experience</button>
           </li>
-          
+
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Projects</button>
           </li>
 
-         
-
-          <li class="navbar-item">
+          <!-- <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Skills</button>
-          </li>
+          </li> -->
 
           <!-- <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Location</button>
@@ -97,8 +99,15 @@
         - #ABOUT
       -->
 
-  <%- include('./skills.ejs', {skills: skills}) %>
-      
+  <%# include('./skills.ejs', {skills: skills}) %>
+  <%- include('./publications.ejs', {publications: publications}) %>
+
+      <!--
+        - #RESEARCH
+      -->
+
+  <%- include('./researches.ejs', {researches: researches}) %>
+
       <!--
         - #EDUCATION
       -->
@@ -118,12 +127,6 @@
         - #PROJECTS
       -->
   <%- include('./projects.ejs', {projects: projects}) %>
-
-      <!--
-        - #RESEARCH
-      -->
-      
-  <%- include('./researches.ejs', {researches: researches}) %>
       
       
 

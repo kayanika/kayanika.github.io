@@ -1,0 +1,50 @@
+<article class="publications" data-page="publications">
+
+    <header>
+      <h2 class="h2 article-title">Publications</h2>
+    </header>
+
+    <section class="timeline">
+      <ol class="timeline-list">
+
+        <% publications.forEach(function(pub){ %>
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title"><%=pub.title%></h4>
+            <h5 class="h5 timeline-item-subtitle-research"><%=pub.subtitle%></h5>
+
+            <% if(pub.supervisor && pub.supervisor.length > 0) { %>
+              <h5 class="h5 timeline-item-subtitle-research">Supervisor:
+                <% pub.supervisor.forEach(function(sup, index){ %>
+                  <%= sup %><% if(index < pub.supervisor.length - 1) { %>, <% } %>
+                <% }); %>
+              </h5>
+            <% } %>
+
+            <% if(pub.coauthors && pub.coauthors.length > 0) { %>
+              <h5 class="h5 timeline-item-subtitle-research">Co-authors:
+                <% pub.coauthors.forEach(function(coauthor, index){ %>
+                  <%= coauthor %><% if(index < pub.coauthors.length - 1) { %>, <% } %>
+                <% }); %>
+              </h5>
+            <% } %>
+
+            <% if(pub.keywords && pub.keywords.length > 0) { %>
+              <h5 class="h5 timeline-item-subtitle-research">Keywords:
+                <% pub.keywords.forEach(function(keyword, index){ %>
+                  <%= keyword %><% if(index < pub.keywords.length - 1) { %>, <% } %>
+                <% }); %>
+              </h5>
+            <% } %>
+
+            <h5 class="h5 timeline-item-subtitle-research">Published in: <%= pub.venue %> <%= pub.year ? ('(' + pub.year + ')') : '' %><% if(pub.link) { %> — <a class="paper-link" href="<%=pub.link%>" target="_blank" rel="noopener noreferrer">paper</a><% } %></h5>
+
+            <br>
+            <p class="timeline-text-bulletpoint">
+              <%=pub.description%>
+            </p>
+          </li>
+        <% }); %>
+
+      </ol>
+    </section>
+  </article>
